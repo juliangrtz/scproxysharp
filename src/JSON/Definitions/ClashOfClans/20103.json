@@ -1,0 +1,68 @@
+/*
+00000000  00 00 00 08 ff ff ff ff  ff ff ff ff ff ff ff ff  |................|
+00000010  00 00 00 2c 69 74 6d 73  2d 61 70 70 73 3a 2f 2f  |...,itms-apps://|
+00000020  69 74 75 6e 65 73 2e 61  70 70 6c 65 2e 63 6f 6d  |itunes.apple.com|
+00000030  2f 61 70 70 2f 69 64 35  32 39 34 37 39 31 39 30  |/app/id529479190|
+00000040  ff ff ff ff 00 00 00 00  00 ff ff ff ff ff ff ff  |................|
+00000050  ff 00 00 00 00 00 00 00  00 ff ff ff ff ff ff ff  |................|
+ */
+{
+  "PacketID": 20103,
+  "PacketName": "LoginFailed",
+  "ShouldLog": true,
+  "ShouldExport": true,
+  "Fields": [
+    {
+      "FieldName": "FailureReason",
+      "FieldType": "BigEndianInt"
+    },
+    {
+      "FieldName": "Unknown_Field_1", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_2", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_3", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "AppstoreURL",
+      "FieldType": "SupercellString"
+    },
+    {
+      "FieldName": "Unknown_Field_4", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_5", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_6", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_7", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_8", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_9", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_10", // Todo: Find out
+      "FieldType": "Int"
+    },
+    {
+      "FieldName": "Unknown_Field_11", // Todo: Find out
+      "FieldType": "Int"
+    }
+  ]
+}

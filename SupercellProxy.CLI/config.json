@@ -1,0 +1,22 @@
+{
+  /* 		Choose the host/server you want to intercept data from below.
+        Let's assume you want to intercept Clash of Clans packets
+        with an Android device. In this case, you must insert "gamea.clashofclans.com".
+
+        Supercell game |       iOS server        |      Android host
+        ============== | ======================= | =======================
+        Clash of Clans | game.clashofclans.com   | gamea.clashofclans.com
+        Clash Royale   | game.clashroyaleapp.com | game.clashroyaleapp.com
+        Boom Beach     | game.boombeachgame.com  | game.boombeachgame.com
+
+   */
+
+  "Host": "gamea.clashofclans.com",
+
+  /*
+   * If enabled, decrypted packet contents are mapped to JSON files.
+   * This allows you to understand them in a better way.
+   */
+
+  "JsonLogging": true
+}

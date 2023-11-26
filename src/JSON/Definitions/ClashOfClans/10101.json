@@ -1,0 +1,19 @@
+{
+  // see https://github.com/clugh/cocdp/wiki/Messages-Login
+
+  "PacketID": 10101,
+  "PacketName": "Login",
+  "ShouldLog": true,
+  "ShouldExport": true,
+  "Fields": [
+    {
+      "FieldName": "UserID",
+      "FieldType": "Int64"
+    },
+    {
+      "FieldName": "UserToken",
+      "FieldType": "Int"
+    }
+    // ...
+  ]
+}
